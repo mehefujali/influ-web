@@ -6,21 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>influncer</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/8ddf321cf8.js" crossorigin="anonymous"></script>
 
 </head>
 
-<body>
+<body class="">
 
     <header>
-        <nav class=" flex justify-between  mx-44 mt-7  ">
-            <h3 class=" text-4xl font-bold ">Influencer products</h3>
-            <ul class=" flex gap-8 ">
-                <li>Home</li>
-                <li>Products</li>
-                <li>Sign up</li>
-                <li>Log In</li>
-            </ul>
+        <nav class=" flex justify-between  md:w-5/6 mt-7 items-center  m-auto  w-4/5">
+            <h3 class=" text-2xl sm:text-2xl font-bold ">Influencer products</h3>
+            <div class=" hidden lg:block ">
+                <ul class=" flex gap-8 items-center    ">
+                    <li>Home</li>
+                    <li>Products</li>
+                    <li>Sign up</li>
+                    <li>Log In</li>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </ul>
+            </div>
+            <div class=" lg:hidden text-2xl">
+                <i class="fa-solid fa-bars"></i>
+            </div>
         </nav>
+
+        <section class="  w-5/6 m-auto flex flex-col md:flex-row  items-center justify-between mt-40 ">
+            <div class=" md:w-2/5 ">
+                <h1 class=" text-3xl sm:text-4xl  font-bold mb-8 lg:text-6xl ">Start your Journey as
+                    Influencer</h1>
+                <p class="text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem vestibulum sed
+                    scelerisque eros. Lectus
+                    faucibus.</p>
+                <button class=" mt-20 bg-pink-600 text-white px-5 py-3 rounded-full">Preebook now <i
+                        class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <div>
+                <img src="./images/main-camera.png" alt="">
+            </div>
+        </section>
+
     </header>
 
 </body>
